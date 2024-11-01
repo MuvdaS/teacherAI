@@ -1,0 +1,311 @@
+*{
+	font-family: "ABeeZee", sans-serif;
+	font-weight: 400;
+	font-style: normal;  
+}
+
+/* TeacherAI */
+.title_loggo{
+	font-size: 80px;
+	font-weight: 400;
+	color: #35529C;
+
+	justify-self: center;
+
+	margin-top: 26px;
+	margin-bottom: 50px;
+}
+
+.form_input{
+	color: #35529C;
+
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+.form_input .form-label{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.form_input label{
+	margin-bottom: 1px;
+}
+
+.form_input .forms_box{
+	background-color: #D9D9D9;
+	height: 70px;
+}
+
+.form_input .forms_box:first-of-type {
+    margin-bottom: 37px;
+}
+
+.form_button{
+	justify-self: self-end;
+	margin-top: 13px;
+}
+
+.form_button button{
+	color: #FFFFFF;
+	background: #7C88AC;
+
+	width: 110px;
+
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.forget_password{
+	color: #35529C;
+
+	margin-left: 75px;
+}
+
+/*Sidebar Component*/
+.sidebar{
+	position: sticky;
+	top: 0;
+	align-self: start;
+
+	width: 250px;
+	height: 100%;
+	padding: 5px 1em;
+
+	background-color: #ccc;
+	box-sizing: border-box;
+	border-right: 1px solid #000000;
+}
+
+.sidebar ul{
+	list-style: none;
+	padding: 0px;
+}
+
+.sidebar > ul > li:first-child{
+	display: flex;
+	justify-content: center;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+	.logo{
+		font-size: 35px;
+		font-weight: 700;
+
+		border-radius: .5em;
+		padding: .85em .25em .85em .25em;	
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		gap: 1em;
+	}
+}
+
+.sidebar a, .sidebar .dropdown-btn{
+	border-radius: .5em;
+	padding: .85em;	
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	gap: 1em;
+
+	/*margin: 2px 5px 2px 5px;*/
+}
+
+.sidebar .dropdown-btn{
+	width: 100%;
+	text-align: left;
+	background: none;
+	border: none;
+	font: inherit;
+}
+
+.sidebar svg{
+	flex-shrink: 0;
+}
+
+.sidebar a span, .sidebar .dropdown-btn span{
+	flex-grow: 1;
+}
+
+.sidebar a:hover, .sidebar .dropdown-btn:hover{
+	background-color: #7C88AC;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+/*Loggin Page*/
+.container__loggin{
+	padding-top: 116px;
+	padding-left: 390px;
+}
+
+.container__loggin .painel{
+	position: absolute;
+
+	background-color: #BABABA;
+	width: 500px;
+	height: 600px;
+}
+
+/*Sing-up Page*/
+.container__signup{
+	padding-top: 89.5px;
+	padding-left: 390px;
+}
+
+.container__signup .painel{
+	position: absolute;
+
+	background-color: #BABABA;
+	width: 500px;
+	height: 750px;
+}
+
+.container__signup .title_loggo{
+	font-size: 80px;
+	font-weight: 400;
+	color: #35529C;
+
+	justify-self: center;
+
+	margin-top: 26px;
+	margin-bottom: 50px;
+}
+
+.container__signup .form_input{
+	color: #35529C;
+
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+.container__signup .form_input label{
+	margin-bottom: 1px;
+}
+
+.container__signup .form_input .forms_box{
+	background-color: #D9D9D9;
+
+	margin-bottom: 30px;
+	height: 70px;
+}
+
+.container__signup .form_button{
+	justify-self: self-end;
+}
+
+.container__signup .form_button button{
+	color: #FFFFFF;
+	background-color: #7C88AC;
+
+	margin-top: 13px;
+	width: 110px;
+
+	font-size: 20px;
+	font-weight: 400;
+}
+
+/*Subjects Page*/
+.bg__subject{
+	background-color: #BABABA;
+}
+
+.subject__grid{
+	color: #35529C;
+	
+	padding-top: 50px;
+
+	width: 750px;
+
+	justify-self: center;
+}
+
+.subject__grid .subject__logo{
+	font-size: 80px;
+	font-weight: 400;
+
+	text-align: center;
+}
+
+.subject__grid .text_subject{
+	font-size: 40px;
+	font-weight: 400;
+
+	text-align: center;
+	justify-content: center;
+}
+
+.subject__grid .text_subject p{
+	margin-bottom: 15px;
+}
+
+.subject__grid .form-control{
+	margin-bottom: 10px;
+	background-color: #D9D9D9;
+
+}
+
+.subject__grid .subject_btn{
+	justify-content: flex-end;
+	text-align: right;
+}
+
+.subject__grid .subject_btn button{
+	color: #FFFFFF;
+	background-color: #7C88AC;
+}
+
+/*Answer Page*/
+.answer__grid{
+	background-color: #FFFFFF;
+	border-radius: 30px;
+}
+
+.answer__grid .answer_btn{
+	padding-top: 30px;
+	padding-right: 30px;
+	
+	justify-content: flex-end;
+	text-align: right;
+}
+
+.answer__grid .answer_btn .btn_generate{
+	color: #FFFFFF;
+	background: #35529C;
+}
+
+.answer__grid .answer_btn .btn_save{
+	color: #FFFFFF;
+	background: #198754;
+}
+
+/*Info Email and Code Pages*/
+.container__info{
+	padding-top: 120px;
+	padding-left: 390px;
+}
+
+.container__info .painel{
+	position: absolute;
+
+	background-color: #BABABA;
+	width: 500px;
+	height: 450px;
+}
+
+/*Change Password Page*/
+.container__password{
+	padding-top: 120px;
+	padding-left: 390px;
+}
+
+.container__password .painel{
+	position: absolute;
+
+	background-color: #BABABA;
+	width: 500px;
+	height: 500px;
+}
+
+
+
