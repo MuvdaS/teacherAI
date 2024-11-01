@@ -50,6 +50,7 @@ class TeacherController extends Controller
 
     public function store(TeacherFormRequest $request)
     {
+
         $teacher = Teacher::create([
             'name' => $request->input('nome'),
             'institution' => $request->input('instituicao'),
